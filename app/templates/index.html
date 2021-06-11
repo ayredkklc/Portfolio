@@ -22,7 +22,8 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class = "background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Derya Kilic</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,36 +49,36 @@
   </div>
 </nav>
 
-
-    <header class="nav-bar">
-        <div class="nav-content">
-            <a href="/">
-                <div class="nav-logo">
-                    <img src="./static/img/logo.svg" />
-                </div>
-            </a>
-        </div>
-    </header>
-
-    <div class="profile">
+        <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+               <div class="profile">
         <div id="profile-picture" class="profile-picture">
-            <img src="./static/img/logo.jpg">
+            <img src="./static/img/20210611_092832.jpg">
+        <div id="projects-title">
+              <h1>
+                <span id="typed-strings">
+                  <span>Hello!</span>
+                  <span>I'm Derya</span>
+                  <span>Welcome to my portfolio!</span>
+                  <!-- <span>Working as a Freelancer</span> -->
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
         </div>
-        <h1>{{ title }}</h1>
+      </div>
     </div>
+      </div>
+</div>
+      </div>
 
 
-    <div class="intro">
-        <h1>
-            Hi, I'm Derya!
-        </h1>
-
-        <h3>
-             Welcome to my portfolio....
-        </h3>
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+</div>
 </body>
+
 </html>
