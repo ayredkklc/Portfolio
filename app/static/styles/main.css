@@ -98,3 +98,118 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
+
+/* ============================== projects/general title ============================== */
+
+#projects-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #6e55c7;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+/* ============================== projects titles ============================== */
+
+#projects-sub {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #000000;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+#tools {
+    font-size: 10px;
+    font-weight: 450;
+    margin-top: 0px;
+    color: #000000;
+}
+
+#desc {
+    font-size: 15px;
+    font-weight: 325;
+    margin-top: 0px;
+    color: #000000;
+}
+
+/* ============================== unused link styles ============================== */
+
+#links {
+    font-size: 15px;
+    font-weight: 10;
+    margin-top: 0px;
+    color: #b4d1cf;
+}
+
+/* ============================== links ============================== */
+
+#desc > a {
+    color: #56c6aa;
+    margin-top: 0px;
+}
+
+#desc > a:hover {
+    color: #2cc2f1;
+    font-size: 120%;
+}
+
+/* ============================== form placement ============================== */
+
+#form {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #000000;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+/* ============================== spacing between form ============================== */
+
+#form-group {
+    margin-top: 5px;
+}
+
+/* ============================== container ============================== */
+
+.container {
+    margin-top: 50px;
+    margin-left: auto;
+}
+
+/* ============================== footer links, padding ============================== */
+h4 > a {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #56c6aa;
+}
+
+h4 > a:hover {
+    color: #2cc2f1;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+/* ============================== about ============================== */
+#about {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #000000;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+#about > a {
+    color: #56c6aa;
+    margin-top: 0px;
+}
+
+#about > a:hover {
+    color: #2cc2f1;
+}
